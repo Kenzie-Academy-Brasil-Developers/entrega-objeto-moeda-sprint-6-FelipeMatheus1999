@@ -24,12 +24,12 @@ const coin = {
         const image = document.createElement('img');
 
         if (coin.toString() === "Heads") {
-            image.src = "/img/image.jpg";
+            image.src = "/coinObject/img/image.jpg";
             image.alt = coin.toString();
         }
 
         else if (coin.toString() === "Tails") {
-            image.src = "/img/moeda-de-1-real-direitos-humanos-D_NQ_NP_22133-MLB20225120851_012015-F_moeda+1+real+direitos+humanos.jpg";
+            image.src = "/coinObject/img/moeda-de-1-real-direitos-humanos-D_NQ_NP_22133-MLB20225120851_012015-F_moeda+1+real+direitos+humanos.jpg";
             image.alt = coin.toString();
         }
 
